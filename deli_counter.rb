@@ -14,3 +14,7 @@ def take_a_number(array, name)
   array.push(name)
   "Hello, #{name}. You are currently number #{array.length} in line."
 end
+
+def now_serving(array)
+  "Now serving #{array.shift}."
+end
