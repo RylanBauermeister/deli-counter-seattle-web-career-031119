@@ -1,7 +1,8 @@
 # Write your code here.
 def line(array)
   if array.empty?
-    return "The line is currently empty."
+    puts "The line is currently empty."
+    return nil
   end
   result = "The line is currently: "
   for i in 0...array.length
